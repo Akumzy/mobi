@@ -1,7 +1,7 @@
 {
   "name": "Mobi",
-  "version": "1.0",
-  "description": "An app for viewing local web app with mobile scale",
+  "version": "2.0",
+  "description": "Chrome extension for loading a wep app with mobile view scale.",
   "manifest_version": 2,
   "permissions": ["storage", "tabs"],
   "background": {
