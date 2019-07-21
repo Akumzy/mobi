@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mobile View by Akumzy</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <form id="form">
+      <input type="text" placeholder="Type a URL" id="link" />
+      <button>Open</button>
+    </form>
+    <label for="scale"
+      >Scale:
+      <select name="scale" id="scale">
+        <option value="0.50">50</option>
+        <option value="0.60">60</option>
+        <option value="0.70" selected>70</option>
+        <option value="0.80">80</option>
+        <option value="0.90">90</option>
+        <option value="1">100</option>
+      </select></label
+    >
+    <label for="phone"
+      >Device:
+      <select name="phone" id="phone">
+        <option value="phone-andriod.png" selected>Andriod</option>
+        <option value="phone-iphone.png">iPhone</option>
+      </select></label
+    >
+    <div class="view">
+      <div class="display">
+        <iframe id="iframe" seamless frameborder="0"></iframe>
+      </div>
+    </div>
+    <footer>Made with love by <a href="https://twitter.com/DeAkumzy" target="_blank">Akuma Isaac Akuma</a></footer>
+  </body>
+  <script src="/view.js"></script>
+</html>

@@ -1,0 +1,63 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #ccc;
+}
+:root {
+  --scale: 0.7;
+  --phone: url(/phone-andriod.png);
+}
+.view {
+  margin: auto;
+  background-image: var(--phone);
+  height: 878px;
+  width: 523px;
+  background-repeat: no-repeat;
+  transform-origin: 50% 0;
+  transform: scale(var(--scale));
+  position: relative;
+}
+.view.iphone {
+  background-size: contain;
+  margin-top: 2em;
+}
+.display {
+  position: absolute;
+  top: 122px;
+  right: 82px;
+  width: 360px;
+  height: 640px;
+}
+.display.iphone {
+  top: 103px;
+  right: 111px;
+  width: 383px;
+  height: 671px;
+}
+.display iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+form {
+  border: 1px solid #ddd;
+  display: inline-flex;
+  margin: 1em;
+  border-radius: 5px;
+}
+#link {
+  border: none;
+  padding: 4px 8px;
+}
+button {
+  padding: 4px 8px;
+  border: none;
+}
+footer{
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+}
