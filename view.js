@@ -35,8 +35,21 @@ window.addEventListener('load', () => {
     })
   })
   phone.addEventListener('change', function(ev) {
-    display.classList.toggle('iphone')
-    view.classList.toggle('iphone')
+    //get the selected device
+    let selectedId = this.options[this.selectedIndex].id;
+    console.log(selectedId);
+
+    //loop through options add/remove class if selected or not
+    for(i = 0; i < phone.length; i++){
+        let device = phone.options[i].id
+        if(selectedId === device){
+          display.classList.add(device)
+          view.classList.add(device)
+        }else{
+          display.classList.remove(device)
+          view.classList.remove(device)
+        }
+    }
     docStyle.setProperty('--phone', `url(/${this.value})`)
     chrome.storage.sync.set({ phone: this.value }, function() {
       console.log('Saved the device type...')

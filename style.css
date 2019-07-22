@@ -23,6 +23,12 @@ html {
   background-size: contain;
   margin-top: 2em;
 }
+.view.ipad {
+  background-size: contain;
+  margin-top: 2em;
+  width: 990px;
+  height: 1300px;
+}
 .display {
   position: absolute;
   top: 122px;
@@ -35,6 +41,12 @@ html {
   right: 111px;
   width: 383px;
   height: 671px;
+}
+.display.ipad {
+  top: 103px;
+  right: 111px;
+  width: 768px;
+  height: 1024px;
 }
 .display iframe {
   position: absolute;
