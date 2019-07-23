@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
   const form = document.querySelector('#form'),
     iframe = document.querySelector('#iframe'),
     link = document.querySelector('#link'),
-    scale = document.querySelector('#scale'),
+    scale = document.getElementById('scale'),
     phone = document.querySelector('#phone'),
     display = document.querySelector('.display'),
     view = document.querySelector('.view'),
@@ -36,19 +36,23 @@ window.addEventListener('load', () => {
   })
   phone.addEventListener('change', function(ev) {
     //get the selected device
-    let selectedId = this.options[this.selectedIndex].id;
-    console.log(selectedId);
+    let selectedId = this.options[this.selectedIndex].id
 
     //loop through options add/remove class if selected or not
-    for(i = 0; i < phone.length; i++){
-        let device = phone.options[i].id
-        if(selectedId === device){
-          display.classList.add(device)
-          view.classList.add(device)
-        }else{
-          display.classList.remove(device)
-          view.classList.remove(device)
-        }
+    for (i = 0; i < phone.length; i++) {
+      let device = phone.options[i].id
+      if (selectedId === device) {
+        display.classList.add(device)
+        view.classList.add(device)
+      } else {
+        display.classList.remove(device)
+        view.classList.remove(device)
+      }
+    }
+    // scale down to 50% to fit the view
+    if (this.value.includes('ipad')) {
+      scale.value = '0.5'
+      docStyle.setProperty('--scale', '0.5')
     }
     docStyle.setProperty('--phone', `url(/${this.value})`)
     chrome.storage.sync.set({ phone: this.value }, function() {
