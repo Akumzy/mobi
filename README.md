@@ -10,11 +10,11 @@ Chrome extension for loading a wep app with mobile view scale. [Get it here](htt
 
 <img src="./screenshots/Screenshot-andriod.png" alt="Andriod view emulator">
 
-## With iPad view
+## With iPhone view
 
 <img src="./screenshots/Screenshot-iphone.png" alt="iPhone view emulator">
 
-## With ipad view by [Godwin9911](https://github.com/Godwin9911)
+## With iPad view by [Godwin9911](https://github.com/Godwin9911)
 <img src="./screenshots/Screenshot-ipad.png" alt="iPad view emulator">
 
 ## Contributors
