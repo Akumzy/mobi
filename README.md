@@ -1,6 +1,10 @@
-# mobi
+# Mobi
 
-Chrome extension for loading a wep app with mobile view scale. [Get it here](https://chrome.google.com/webstore/detail/mobi/kdcpkglpdmobppnakbpbnknlfckohpjh)
+Chrome extension for loading a wep app with mobile view scale. 
+
+<a href="https://chrome.google.com/webstore/detail/mobi/kdcpkglpdmobppnakbpbnknlfckohpjh">
+<img src="./ChromeWebStore_BadgeWBorder_v2_206x58.png">
+</a>
 
 ## Mobile Web App
 
