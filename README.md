@@ -1,25 +1,13 @@
 # Mobi
 
-Chrome extension for loading a wep app with mobile view scale. 
+A Chrome extension for testing a web page responsiveness.
 
 <a href="https://chrome.google.com/webstore/detail/mobi/kdcpkglpdmobppnakbpbnknlfckohpjh">
 <img src="./ChromeWebStore_BadgeWBorder_v2_206x58.png">
 </a>
 
-## Mobile Web App
+## Screenshots
 
-<img src="./screenshots/Screenshot-app.png" alt="Web App">
-
-## With Andriod view
-
-<img src="./screenshots/Screenshot-andriod.png" alt="Andriod view emulator">
-
-## With iPhone view
-
-<img src="./screenshots/Screenshot-iphone.png" alt="iPhone view emulator">
-
-## With iPad view by [Godwin9911](https://github.com/Godwin9911)
-<img src="./screenshots/Screenshot-ipad.png" alt="iPad view emulator">
-
-## Contributors
-- [Godwin9911](https://github.com/Godwin9911) for iPad view
+<img src="./screenshots/Screenshot-1.png" alt="Responsiveness tool screen shot">
+<img src="./screenshots/Screenshot-2.png" alt="Responsiveness tool screen shot">
+<img src="./screenshots/Screenshot-3.png" alt="Responsiveness tool screen shot">

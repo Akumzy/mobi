@@ -1,7 +1,7 @@
 {
   "name": "Mobi",
   "short_name": "Mobi",
-  "version": "4.0",
+  "version": "5.0",
   "description": "Chrome extension for loading a wep app with mobile view scale.",
   "manifest_version": 2,
   "permissions": ["storage", "tabs"],
